@@ -1,0 +1,362 @@
+<!DOCTYPE html>
+<html lang="pt-BR" data-lang="pt">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Mauricio Estefano — Desenvolvedor Front-end</title>
+<meta name="description" content="Portfólio de Mauricio Estefano, desenvolvedor front-end de Curitiba, PR. Sites, automações e ferramentas sob medida.">
+<link rel="icon" type="image/png" href="favicon.png">
+<link rel="shortcut icon" href="favicon.ico">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="grain"></div>
+
+<!-- ===================== HEADER / NAV ===================== -->
+<header class="site-header">
+  <a href="#home" class="brand">
+    <span class="brand-mark">M</span><span class="brand-dot">.</span><span class="brand-mark">E</span>
+  </a>
+
+  <nav class="main-nav" id="mainNav">
+    <a href="#home" class="nav-link active" data-pt="Início" data-en="Home">Início</a>
+    <a href="#skills" class="nav-link" data-pt="Skills" data-en="Skills">Skills</a>
+    <a href="#projects" class="nav-link" data-pt="Projetos" data-en="Projects">Projetos</a>
+    <a href="#story" class="nav-link" data-pt="Trajetória" data-en="Journey">Trajetória</a>
+    <a href="#resume" class="nav-link" data-pt="Currículo" data-en="Resume">Currículo</a>
+    <a href="#contact" class="nav-link" data-pt="Contato" data-en="Contact">Contato</a>
+  </nav>
+
+  <div class="header-actions">
+    <button class="lang-toggle" id="langToggle" aria-label="Switch language">
+      <span class="lang-opt active" data-lang-btn="pt">PT</span>
+      <span class="lang-sep">/</span>
+      <span class="lang-opt" data-lang-btn="en">EN</span>
+    </button>
+    <button class="menu-toggle" id="menuToggle" aria-label="Menu" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</header>
+
+<main>
+
+  <!-- ===================== HERO ===================== -->
+  <section id="home" class="section hero">
+    <div class="hero-inner">
+      <p class="eyebrow">
+        <span class="eyebrow-slash">//</span>
+        <span data-pt="desenvolvedor front-end · curitiba, Pr" data-en="front-end developer · curitiba, Pr">desenvolvedor front-end · curitiba, Pr</span>
+      </p>
+      <h1 class="hero-name">Mauricio Estefano</h1>
+      <p class="hero-line">
+        <span class="hero-line-prompt">$</span>
+        <span id="typedLine" class="hero-line-typed"></span><span class="cursor">&nbsp;</span>
+      </p>
+      <p class="hero-desc" data-pt="Crio sites, ferramentas e automações sob medida do primeiro rascunho ao deploy." data-en="I build custom sites, tools and automations from first sketch to deploy.">
+        Crio sites, ferramentas e automações sob medida do primeiro rascunho ao deploy.
+      </p>
+      <div class="hero-cta">
+        <a href="#projects" class="btn btn-primary" data-pt="Ver projetos" data-en="View projects">Ver projetos</a>
+        <a href="#contact" class="btn btn-ghost" data-pt="Entre em contato" data-en="Get in touch">Entre em contato</a>
+      </div>
+    </div>
+    <a href="#skills" class="scroll-cue" aria-label="Scroll">
+      <span data-pt="rolar" data-en="scroll">rolar</span>
+      <div class="scroll-cue-line"></div>
+    </a>
+  </section>
+
+  <!-- ===================== SKILLS ===================== -->
+  <section id="skills" class="section skills">
+    <div class="section-head">
+      <p class="section-eyebrow">01 <span data-pt="/ skills" data-en="/ skills">/ skills</span></p>
+      <h2 class="section-title" data-pt="Ferramentas que uso no dia a dia" data-en="Tools I reach for every day">Ferramentas que uso no dia a dia</h2>
+    </div>
+
+    <div class="skills-grid">
+      <div class="skill-card">
+        <h3 data-pt="Front-end" data-en="Front-end">Front-end</h3>
+        <div class="tag-row">
+          <span class="tag">HTML5</span>
+          <span class="tag">CSS3</span>
+          <span class="tag">JavaScript</span>
+          <span class="tag">React</span>
+          <span class="tag" data-pt="Design responsivo" data-en="Responsive design">Design responsivo</span>
+        </div>
+      </div>
+
+      <div class="skill-card">
+        <h3 data-pt="Automação &amp; ferramentas" data-en="Automation &amp; tooling">Automação &amp; ferramentas</h3>
+        <div class="tag-row">
+          <span class="tag">Python</span>
+          <span class="tag">Power Automate</span>
+          <span class="tag" data-pt="Geração de documentos" data-en="Document generation">Geração de documentos</span>
+        </div>
+      </div>
+
+      <div class="skill-card">
+        <h3 data-pt="Stacks modernas" data-en="Modern stacks">Stacks modernas</h3>
+        <div class="tag-row">
+          <span class="tag">Next.js</span>
+          <span class="tag">TypeScript</span>
+        </div>
+      </div>
+
+      <div class="skill-card">
+        <h3 data-pt="Integrações" data-en="Integrations">Integrações</h3>
+        <div class="tag-row">
+          <span class="tag">WhatsApp API</span>
+          <span class="tag">GitHub Pages</span>
+          <span class="tag" data-pt="Boas práticas de LGPD" data-en="LGPD-aware practices">Boas práticas de LGPD</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== PROJECTS ===================== -->
+  <section id="projects" class="section projects">
+    <div class="section-head">
+      <p class="section-eyebrow">02 <span data-pt="/ projetos" data-en="/ projects">/ projetos</span></p>
+      <h2 class="section-title" data-pt="Meus projetos" data-en="My projects">Meus projetos</h2>
+    </div>
+
+    <!--
+      COMO ADICIONAR UM PROJETO:
+      Duplique um .project-card dentro de #projectsGrid e preencha:
+      - imagem/thumb em .project-thumb (ou remova para usar o gradiente padrão)
+      - título, categoria (tag) e descrição (pt/en)
+      - link do projeto (ou remova o <a> se for privado)
+    -->
+    <div class="projects-grid" id="projectsGrid">
+
+      <div class="project-card">
+        <a class="project-thumb" href="https://estefan0-coder.github.io/Quizparaprogramador/" target="_blank" rel="noopener">
+          <img class="project-img" src="quiz-programadores.png" alt="Quiz para Programadores">
+        </a>
+        <div class="project-info">
+          <p class="project-tag" data-pt="meu primeiro projeto" data-en="my first project">meu primeiro projeto</p>
+          <h3 data-pt="Quiz para Programadores" data-en="Quiz for Programmers">Quiz para Programadores</h3>
+          <p class="project-desc" data-pt="O primeiro site que eu criei: um quiz interativo para testar conhecimentos de programação, com perguntas de múltipla escolha, texto livre e upload de arquivo, além de uma tabela de pontuação final e gabarito." data-en="The very first site I ever built: an interactive quiz to test programming knowledge, with multiple-choice questions, free-text answers and file upload, plus a final scoring table and answer key.">
+            O primeiro site que eu criei: um quiz interativo para testar conhecimentos de programação, com perguntas de múltipla escolha, texto livre e upload de arquivo, além de uma tabela de pontuação final e gabarito.
+          </p>
+          <div class="tag-row project-tech">
+            <span class="tag">HTML</span>
+            <span class="tag">CSS</span>
+            <span class="tag">JavaScript</span>
+          </div>
+          <a class="project-visit" href="https://estefan0-coder.github.io/Quizparaprogramador/" target="_blank" rel="noopener" data-pt="Ver projeto ↗" data-en="View project ↗">Ver projeto ↗</a>
+        </div>
+      </div>
+
+      <div class="project-card">
+        <a class="project-thumb" href="https://estefan0-coder.github.io/Calculadora/" target="_blank" rel="noopener">
+          <img class="project-img" src="calculadora.png" alt="Calculadora Web">
+        </a>
+        <div class="project-info">
+          <p class="project-tag" data-pt="projeto pessoal" data-en="personal project">projeto pessoal</p>
+          <h3 data-pt="Calculadora Web" data-en="Web Calculator">Calculadora Web</h3>
+          <p class="project-desc" data-pt="Meu segundo projeto: uma calculadora funcional no navegador, com operações básicas e interface simples — feita para treinar lógica de programação e manipulação do DOM." data-en="My second project: a fully working browser calculator with basic operations and a clean interface — built to practice programming logic and DOM manipulation.">
+            Meu segundo projeto: uma calculadora funcional no navegador, com operações básicas e interface simples — feita para treinar lógica de programação e manipulação do DOM.
+          </p>
+          <div class="tag-row project-tech">
+            <span class="tag">HTML</span>
+            <span class="tag">CSS</span>
+            <span class="tag">JavaScript</span>
+          </div>
+          <a class="project-visit" href="https://estefan0-coder.github.io/Calculadora/" target="_blank" rel="noopener" data-pt="Ver projeto ↗" data-en="View project ↗">Ver projeto ↗</a>
+        </div>
+      </div>
+
+      <div class="project-card">
+        <a class="project-thumb" href="https://estefan0-coder.github.io/Rifa-App/" target="_blank" rel="noopener">
+          <img class="project-img" src="rifaexpress.png" alt="RifaExpress">
+        </a>
+        <div class="project-info">
+          <p class="project-tag" data-pt="projeto pessoal" data-en="personal project">projeto pessoal</p>
+          <h3 data-pt="RifaExpress" data-en="RifaExpress">RifaExpress</h3>
+          <p class="project-desc" data-pt="Depois de ver vários anúncios de rifa online, decidi criar a minha própria versão como teste para colocar em prática o que eu sabia: seleção de bilhetes, checkout com Pix, contagem regressiva do sorteio e até um painel para organizadores criarem suas próprias rifas." data-en="After seeing a lot of online raffle ads, I decided to build my own version as a way to put my skills to the test: ticket selection, Pix checkout, a countdown to the draw, and even a dashboard for organizers to create their own raffles.">
+            Depois de ver vários anúncios de rifa online, decidi criar a minha própria versão como teste para colocar em prática o que eu sabia: seleção de bilhetes, checkout com Pix, contagem regressiva do sorteio e até um painel para organizadores criarem suas próprias rifas.
+          </p>
+          <div class="tag-row project-tech">
+            <span class="tag">HTML</span>
+            <span class="tag">CSS</span>
+            <span class="tag">JavaScript</span>
+          </div>
+          <a class="project-visit" href="https://estefan0-coder.github.io/Rifa-App/" target="_blank" rel="noopener" data-pt="Ver projeto ↗" data-en="View project ↗">Ver projeto ↗</a>
+        </div>
+      </div>
+
+      <div class="project-card">
+        <a class="project-thumb" href="https://estefan0-coder.github.io/AzioleDoces/" target="_blank" rel="noopener">
+          <img class="project-img" src="doces-sonhos-da-lo.png" alt="Doces Sonhos da Lô">
+        </a>
+        <div class="project-info">
+          <p class="project-tag" data-pt="cliente / negócio da família" data-en="client / family business">cliente / negócio da família</p>
+          <h3 data-pt="Doces Sonhos da Lô" data-en="Doces Sonhos da Lô">Doces Sonhos da Lô</h3>
+          <p class="project-desc" data-pt="Site criado para mim e minha esposa agilizarmos os pedidos de trufas artesanais dos clientes direto pelo WhatsApp, com vitrine de sabores e uma seção de depoimentos onde os clientes deixam feedback, salvo em tempo real com o Firebase." data-en="A site built for me and my wife to speed up customer orders for our artisanal truffles via WhatsApp, with a flavor showcase and a testimonials section where customers leave feedback, saved in real time with Firebase.">
+            Site criado para mim e minha esposa agilizarmos os pedidos de trufas artesanais dos clientes direto pelo WhatsApp, com vitrine de sabores e uma seção de depoimentos onde os clientes deixam feedback, salvo em tempo real com o Firebase.
+          </p>
+          <div class="tag-row project-tech">
+            <span class="tag">HTML</span>
+            <span class="tag">CSS</span>
+            <span class="tag">JavaScript</span>
+            <span class="tag">Firebase</span>
+          </div>
+          <a class="project-visit" href="https://estefan0-coder.github.io/AzioleDoces/" target="_blank" rel="noopener" data-pt="Ver projeto ↗" data-en="View project ↗">Ver projeto ↗</a>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ===================== HISTÓRIA / TRAJETÓRIA ===================== -->
+  <section id="story" class="section story">
+    <div class="section-head">
+      <p class="section-eyebrow">03 <span data-pt="/ trajetória" data-en="/ journey">/ trajetória</span></p>
+      <h2 class="section-title" data-pt="Minha trajetória" data-en="My journey">Minha trajetória</h2>
+    </div>
+
+    <div class="story-body">
+      <div class="story-avatar" aria-hidden="true">ME</div>
+      <div class="story-text">
+        <p data-pt="Sou de Curitiba (PR) e construo para a web, sempre buscando resolver problemas reais: sites para pequenos negócios locais, ferramentas internas para simplificar processos burocráticos e projetos pessoais que nascem de uma necessidade do dia a dia." data-en="I'm from Curitiba, Brazil, and I've built for the web with one goal in mind: solving real problems — sites for local businesses, internal tools that simplify bureaucratic processes, and personal projects born out of everyday needs.">
+          Sou de Curitiba (PR) e construo para a web, sempre buscando resolver problemas reais: sites para pequenos negócios locais, ferramentas internas para simplificar processos burocráticos e projetos pessoais que nascem de uma necessidade do dia a dia.
+        </p>
+        <p data-pt="Gosto de trabalhar de ponta a ponta: entender o problema, desenhar a solução e entregar algo que funciona de verdade no navegador de quem vai usar." data-en="I like working end to end: understanding the problem, designing the solution, and shipping something that actually works in the browser of whoever's using it.">
+          Gosto de trabalhar de ponta a ponta: entender o problema, desenhar a solução e entregar algo que funciona de verdade no navegador de quem vai usar.
+        </p>
+
+        <div class="story-tracks">
+          <div class="story-track">
+            <h3 class="story-subhead" data-pt="Trajetória profissional" data-en="Professional journey">Trajetória profissional</h3>
+            <ul class="timeline">
+              <li>
+                <span class="timeline-mark"></span>
+                <div>
+                  <p class="timeline-label" data-pt="2019 – 2021 · Agtec Soluções" data-en="2019 – 2021 · Agtec Soluções">2019 – 2021 · Agtec Soluções</p>
+                  <p data-pt="Meu primeiro contato com o mundo do trabalho: como estagiário, cuidava da manutenção de impressoras, computadores, notebooks e celulares, além de atender clientes e abrir ordens de serviço. Foi ali que desenvolvi a base técnica e o olhar atento para resolver problemas do dia a dia." data-en="My first step into the working world: as an intern, I handled maintenance for printers, computers, laptops and phones, while also assisting customers and opening service orders. That's where I built my technical foundation and a sharp eye for solving everyday problems.">Meu primeiro contato com o mundo do trabalho: como estagiário, cuidava da manutenção de impressoras, computadores, notebooks e celulares, além de atender clientes e abrir ordens de serviço. Foi ali que desenvolvi a base técnica e o olhar atento para resolver problemas do dia a dia.</p>
+                </div>
+              </li>
+              <li>
+                <span class="timeline-mark"></span>
+                <div>
+                  <p class="timeline-label" data-pt="2022 – 2026 · Exército Brasileiro" data-en="2022 – 2026 · Brazilian Army">2022 – 2026 · Exército Brasileiro</p>
+                  <p data-pt="Quatro anos servindo como soldado, um período que me ensinou disciplina, resiliência e trabalho em equipe sob pressão — valores que carrego até hoje em tudo que construo." data-en="Four years serving as a soldier — a chapter that taught me discipline, resilience and teamwork under pressure, values I still carry into everything I build today.">Quatro anos servindo como soldado, um período que me ensinou disciplina, resiliência e trabalho em equipe sob pressão — valores que carrego até hoje em tudo que construo.</p>
+                </div>
+              </li>
+              <li>
+                <span class="timeline-mark"></span>
+                <div>
+                  <p class="timeline-label" data-pt="2026 – atual · Trombini Embalagens" data-en="2026 – present · Trombini Embalagens">2026 – atual · Trombini Embalagens</p>
+                  <p data-pt="Atuo como ajudante de produção enquanto avanço na faculdade e sigo dedicando meu tempo livre a projetos próprios de desenvolvimento — equilibrando rotina, estudo e a construção da carreira que quero ter." data-en="I work as a production assistant while moving forward with my studies, dedicating my free time to my own development projects — balancing routine, learning and the career I'm building for myself.">Atuo como ajudante de produção enquanto avanço na faculdade e sigo dedicando meu tempo livre a projetos próprios de desenvolvimento — equilibrando rotina, estudo e a construção da carreira que quero ter.</p>
+                </div>
+              </li>
+            </ul>
+          </div>
+
+          <div class="story-track">
+            <h3 class="story-subhead" data-pt="Trajetória acadêmica" data-en="Academic journey">Trajetória acadêmica</h3>
+            <ul class="timeline">
+              <li>
+                <span class="timeline-mark"></span>
+                <div>
+                  <p class="timeline-label" data-pt="2026 · Uniasselvi" data-en="2026 · Uniasselvi">2026 · Uniasselvi</p>
+                  <p data-pt="Comecei a faculdade de Análise e Desenvolvimento de Sistemas, dando forma acadêmica a algo que já era paixão: programar e criar soluções para a web. Atualmente no segundo semestre." data-en="Started a degree in Systems Analysis and Development, giving academic shape to something that was already a passion: coding and building solutions for the web. Currently in my second semester.">Comecei a faculdade de Análise e Desenvolvimento de Sistemas, dando forma acadêmica a algo que já era paixão: programar e criar soluções para a web. Atualmente no segundo semestre.</p>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== CURRÍCULO ===================== -->
+  <section id="resume" class="section resume">
+    <div class="section-head">
+      <p class="section-eyebrow">04 <span data-pt="/ currículo" data-en="/ resume">/ currículo</span></p>
+      <h2 class="section-title" data-pt="Quer todos os detalhes?" data-en="Want the full picture?">Quer todos os detalhes?</h2>
+    </div>
+    <div class="resume-card">
+      <p data-pt="Baixe meu currículo completo em PDF, com experiência, formação e stack técnica detalhada." data-en="Download my full résumé as a PDF, with experience, education and detailed tech stack.">
+        Baixe meu currículo completo em PDF, com experiência, formação e stack técnica detalhada.
+      </p>
+      <a href="assets/curriculo-mauricio-estefano.pdf" class="btn btn-primary" download data-pt="Baixar currículo (PDF)" data-en="Download résumé (PDF)">Baixar currículo (PDF)</a>
+    </div>
+  </section>
+
+  <!-- ===================== CONTATO ===================== -->
+  <section id="contact" class="section contact">
+    <div class="section-head">
+      <p class="section-eyebrow">05 <span data-pt="/ contato" data-en="/ contact">/ contato</span></p>
+      <h2 class="section-title" data-pt="Entre em Contato" data-en="Get in Touch">Entre em Contato</h2>
+      <p class="section-sub" data-pt="Responda rápido pelo WhatsApp ou me mande um e-mail." data-en="Reach me quickly on WhatsApp or send an email.">
+        Responda rápido pelo WhatsApp ou me mande um e-mail.
+      </p>
+    </div>
+
+    <div class="contact-actions">
+      <a class="contact-btn contact-email" href="mailto:mauricioestefanofs@gmail.com" target="_blank" rel="noopener">
+        <span class="contact-icon">
+          <svg width="22" height="22" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+            <path d="M2 5.5C2 4.67157 2.67157 4 3.5 4H20.5C21.3284 4 22 4.67157 22 5.5V18.5C22 19.3284 21.3284 20 20.5 20H3.5C2.67157 20 2 19.3284 2 18.5V5.5Z" stroke="currentColor" stroke-width="1.6"/>
+            <path d="M3 5.5L12 13L21 5.5" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+          </svg>
+        </span>
+        <span class="contact-label">
+          <strong data-pt="E-mail" data-en="Email">E-mail</strong>
+          <small>mauricioestefanofs@gmail.com</small>
+        </span>
+      </a>
+      <a class="contact-btn contact-whatsapp" href="https://wa.me/5541995965755" target="_blank" rel="noopener">
+        <span class="contact-icon">
+          <svg width="22" height="22" viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+            <path d="M12.04 2C6.58 2 2.13 6.45 2.13 11.91C2.13 13.66 2.59 15.36 3.45 16.86L2.05 22L7.3 20.62C8.75 21.41 10.38 21.83 12.04 21.83C17.5 21.83 21.95 17.38 21.95 11.92C21.95 9.27 20.92 6.78 19.05 4.91C17.18 3.03 14.69 2 12.04 2ZM12.04 3.67C14.24 3.67 16.31 4.53 17.87 6.09C19.42 7.65 20.28 9.72 20.28 11.92C20.28 16.46 16.58 20.15 12.03 20.15C10.56 20.15 9.12 19.76 7.85 19.03L7.55 18.85L4.43 19.67L5.26 16.63L5.06 16.31C4.26 15 3.8 13.47 3.8 11.91C3.81 7.37 7.5 3.67 12.04 3.67ZM8.53 6.85C8.37 6.85 8.1 6.91 7.87 7.16C7.65 7.41 7 8.01 7 9.22C7 10.43 7.89 11.6 8.01 11.76C8.14 11.92 9.76 14.47 12.29 15.55C14.39 16.45 14.82 16.28 15.28 16.24C15.74 16.2 16.76 15.64 16.97 15.05C17.18 14.46 17.18 13.96 17.12 13.86C17.06 13.75 16.89 13.69 16.64 13.57C16.39 13.44 15.15 12.83 14.92 12.75C14.69 12.66 14.53 12.62 14.36 12.87C14.2 13.12 13.73 13.69 13.59 13.85C13.45 14.01 13.31 14.03 13.06 13.91C12.81 13.78 12 13.51 11.03 12.65C10.28 11.98 9.77 11.15 9.63 10.9C9.49 10.65 9.61 10.51 9.74 10.38C9.85 10.27 10 10.09 10.13 9.95C10.25 9.81 10.29 9.71 10.38 9.54C10.46 9.38 10.42 9.24 10.36 9.11C10.29 8.99 9.8 7.75 9.58 7.24C9.38 6.75 9.17 6.79 9.01 6.79C8.85 6.79 8.69 6.85 8.53 6.85Z"/>
+          </svg>
+        </span>
+        <span class="contact-label">
+          <strong>WhatsApp</strong>
+          <small>+55 (41) 99596-...</small>
+        </span>
+      </a>
+       <a class="contact-btn contact-linkedin" href="https://www.linkedin.com/in/mauricio-estefano-253048391/" target="_blank" rel="noopener">
+        <span class="contact-icon">
+          <svg width="22" height="22" viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+            <path d="M4.98 3.5C4.98 4.88 3.87 6 2.49 6C1.11 6 0 4.88 0 3.5C0 2.12 1.11 1 2.49 1C3.87 1 4.98 2.12 4.98 3.5ZM0.22 8.24H4.76V23H0.22V8.24ZM7.98 8.24H12.33V10.24H12.39C13 9.08 14.5 7.86 16.73 7.86C21.32 7.86 22.16 10.86 22.16 14.76V23H17.63V15.66C17.63 13.99 17.6 11.84 15.3 11.84C12.96 11.84 12.61 13.66 12.61 15.54V23H7.98V8.24Z"/>
+          </svg>
+        </span>
+        <span class="contact-label">
+          <strong data-pt="LinkedIn" data-en="LinkedIn">LinkedIn</strong>
+          <small>Mauricio Estefano</small>
+        </span>
+      </a>
+       <a class="contact-btn contact-github" href="https://github.com/Estefan0-coder" target="_blank" rel="noopener">
+        <span class="contact-icon">
+          <svg width="22" height="22" viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+            <path fill-rule="evenodd" clip-rule="evenodd" d="M12 2C6.48 2 2 6.58 2 12.2C2 16.68 4.87 20.47 8.84 21.8C9.34 21.9 9.52 21.58 9.52 21.31C9.52 21.07 9.51 20.24 9.51 19.36C7 19.9 6.35 18.9 6.15 18.38C6.03 18.11 5.6 17.31 5.22 17.1C4.9 16.93 4.44 16.53 5.21 16.52C5.93 16.51 6.44 17.19 6.62 17.47C7.44 18.87 8.7 18.48 9.2 18.22C9.28 17.61 9.52 17.19 9.79 16.95C7.71 16.71 5.53 15.9 5.53 12.24C5.53 11.2 5.9 10.35 6.64 9.68C6.53 9.44 6.2 8.46 6.74 7.14C6.74 7.14 7.57 6.87 9.52 8.19C10.33 7.96 11.19 7.85 12.05 7.85C12.91 7.85 13.77 7.96 14.58 8.19C16.53 6.86 17.36 7.14 17.36 7.14C17.9 8.46 17.57 9.44 17.46 9.68C18.2 10.35 18.57 11.19 18.57 12.24C18.57 15.91 16.38 16.71 14.3 16.95C14.64 17.25 14.94 17.83 14.94 18.73C14.94 20.01 14.93 21.05 14.93 21.31C14.93 21.58 15.11 21.91 15.61 21.8C19.6 20.47 22.47 16.68 22.47 12.2C22.47 6.58 17.99 2 12.47 2H12Z"/>
+          </svg>
+        </span>
+        <span class="contact-label">
+          <strong data-pt="GitHub" data-en="GitHub">GitHub</strong>
+          <small>Estefan0-coder</small>
+        </span>
+      </a>
+    </div>
+  </section>
+
+</main>
+
+<footer class="site-footer">
+  <p>© <span id="year"></span> Mauricio Estefano.
+    <span data-pt="Feito em HTML, CSS e JavaScript." data-en="Made with HTML, CSS and JavaScript.">Feito em HTML, CSS e JavaScript.</span>
+  </p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
